@@ -18,126 +18,126 @@ Node modules:
 ** Index json
 
 #+BEGIN_SRC js :tangle data/index.json
-  {
-    "version": "2.3.8",
-    "fields": [
-      "title",
-      "body"
-    ],
-    "fieldVectors": [
+{
+  "version": "2.3.8",
+  "fields": [
+    "title",
+    "body"
+  ],
+  "fieldVectors": [
+    [
+      "title/1",
       [
-	"title/1",
-	[
-	  0,
-	  0.288,
-	  1,
-	  0.288
-	]
-      ],
-      [
-	"body/1",
-	[
-	  2,
-	  0.288,
-	  3,
-	  0.288,
-	  4,
-	  0.288,
-	  5,
-	  0.288,
-	  6,
-	  0.288,
-	  7,
-	  0.288
-	]
+	0,
+	0.288,
+	1,
+	0.288
       ]
     ],
-    "invertedIndex": [
+    [
+      "body/1",
       [
-	"excess",
-	{
-	  "_index": 7,
-	  "title": null,
-	  "body": {
-	    "1": null
-	  }
-	}
-      ],
-      [
-	"food",
-	{
-	  "_index": 3,
-	  "title": null,
-	  "body": {
-	    "1": null
-	  }
-	}
-      ],
-      [
-	"give",
-	{
-	  "_index": 6,
-	  "title": null,
-	  "body": {
-	    "1": null
-	  }
-	}
-      ],
-      [
-	"love",
-	{
-	  "_index": 4,
-	  "title": null,
-	  "body": {
-	    "1": null
-	  }
-	}
-      ],
-      [
-	"music",
-	{
-	  "_index": 2,
-	  "title": null,
-	  "body": {
-	    "1": null
-	  }
-	}
-      ],
-      [
-	"night",
-	{
-	  "_index": 1,
-	  "title": {
-	    "1": null
-	  },
-	  "body": null
-	}
-      ],
-      [
-	"play",
-	{
-	  "_index": 5,
-	  "title": null,
-	  "body": {
-	    "1": null
-	  }
-	}
-      ],
-      [
-	"twelfth",
-	{
-	  "_index": 0,
-	  "title": {
-	    "1": null
-	  },
-	  "body": null
-	}
+	2,
+	0.288,
+	3,
+	0.288,
+	4,
+	0.288,
+	5,
+	0.288,
+	6,
+	0.288,
+	7,
+	0.288
       ]
-    ],
-    "pipeline": [
-      "stemmer"
     ]
-  }
+  ],
+  "invertedIndex": [
+    [
+      "excess",
+      {
+	"_index": 7,
+	"title": null,
+	"body": {
+	  "1": null
+	}
+      }
+    ],
+    [
+      "food",
+      {
+	"_index": 3,
+	"title": null,
+	"body": {
+	  "1": null
+	}
+      }
+    ],
+    [
+      "give",
+      {
+	"_index": 6,
+	"title": null,
+	"body": {
+	  "1": null
+	}
+      }
+    ],
+    [
+      "love",
+      {
+	"_index": 4,
+	"title": null,
+	"body": {
+	  "1": null
+	}
+      }
+    ],
+    [
+      "music",
+      {
+	"_index": 2,
+	"title": null,
+	"body": {
+	  "1": null
+	}
+      }
+    ],
+    [
+      "night",
+      {
+	"_index": 1,
+	"title": {
+	  "1": null
+	},
+	"body": null
+      }
+    ],
+    [
+      "play",
+      {
+	"_index": 5,
+	"title": null,
+	"body": {
+	  "1": null
+	}
+      }
+    ],
+    [
+      "twelfth",
+      {
+	"_index": 0,
+	"title": {
+	  "1": null
+	},
+	"body": null
+      }
+    ]
+  ],
+  "pipeline": [
+    "stemmer"
+  ]
+}
 #+END_SRC
 
 ** Imports
